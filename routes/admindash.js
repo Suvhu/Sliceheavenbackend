@@ -1,7 +1,7 @@
 const express = require('express');
 const {body, validationResult } = require('express-validator');
 const router = express.Router();
-const fetchadmin = require('../middleware/fetchAdmin');
+const fetchadmin = require('../middleware/fetchadmin');
 const Product = require("../models/Product")
 const Pizza = require("../models/Pizza")
 const Order = require("../models/Order")
