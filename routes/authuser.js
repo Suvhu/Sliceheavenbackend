@@ -4,7 +4,7 @@ const {body, validationResult } = require('express-validator');
 const router = express.Router();
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
-const fetchuser = require('../middleware/fetchUser');
+const fetchuser = require('../middleware/fetchuser');
 const  nodemailer = require("nodemailer");
 
 const JWT_SECRET = 'Subuswain';
